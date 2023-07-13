@@ -38,14 +38,55 @@ nav a:hover
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
+
    }
 
-    main div h1, p
+   main div h1, p
+   {
+      color: rgb(184, 177, 177);
+      text-align: center;
+  
+   }
+
+
+   /*results section*/
+   .results 
+   {
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+     background-image: url(assets-images/headphones_hero_2.jpg);
+     display: flex;
+     flex-direction: column;
+   }
+
+   .pentagon
+   {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   }
+
+    #row 
      {
-        color: rgb(184, 177, 177);
-        text-align: center;
-    
-     }
+        display: flex;
+        justify-content: space-around;
+        align-content: flex-end 
+
+    }
+     
+    #heading
+     {
+        display: flex;
+        justify-content: center;
+
+    }
+     
+     
+   
+
     
     #button 
      {
